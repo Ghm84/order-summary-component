@@ -1,0 +1,119 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    overflow: auto;
+    font-family: "Red Hat Display";
+}
+
+.card {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 85%;
+    height: auto;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    border-radius: 1.25rem;
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.illustration {
+    max-width: 100%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.info {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.45rem;
+    font-weight: 900;
+    margin-left: 3rem;
+}
+
+p {
+    color:  hsl(224, 23%, 55%);
+    max-width: 90%;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.icon-music {
+    position: absolute;
+    margin-top: 2rem;
+}
+
+h2 {
+    position: relative;
+    color: hsl(223, 47%, 23%);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+h3 {
+    position: relative;
+    color: hsl(224, 23%, 55%);
+    opacity: 1;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+
+.change-button {
+    position: absolute;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(245, 75%, 52%);
+    border: none;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: -3.5rem;
+    margin-left: 14rem;
+}
+
+.payment-button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    position: relative;
+    max-width: 20rem;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+    padding-bottom: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cancel-button {
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+}
+
+.change-button, .payment-button, .cancel-button:hover {
+    cursor: pointer;
+}
